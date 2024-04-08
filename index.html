@@ -8,6 +8,8 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #d8e1e8;
+        display: flex;
+        justify-content: center;
       }
 
       .banner-image {
@@ -26,27 +28,44 @@
 
       .name {
         color: #304674;
+        display: flex;
+        justify-content: center;
       }
 
       .social-icons a {
         color: #6984a3;
         text-decoration: none;
+        display: flex;
+        justify-content: center;
       }
 
       .link {
         background-color: #b2cbde;
+        display: flex;
+        align-items: center;
       }
 
       .link a {
         color: #4b6285;
         text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
       }
 
       .items {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        max-width: 640px;
+        max-width: 660px;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      * {
+        border: thin red solid;
       }
 
     </style>
